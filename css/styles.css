@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans Chakma', sans-serif;
+}
+
+/* tittle section */
+#title{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+/* images section */
+#img-div{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+img{
+    display: block;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* article section */
+#tribute-info, #tribute-info p{
+    background-color: beige;
+    margin: 20px;
+}
+
+/* link section */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-top: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: large; 
+    margin: 0px 4px 0 0;
+}
