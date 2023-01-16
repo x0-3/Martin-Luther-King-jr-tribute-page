@@ -6,12 +6,13 @@
 
 body{
     font-family: 'Noto Sans Chakma', sans-serif;
+    color: #7D7464;
 }
 
 /* tittle section */
 #title{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #7D7464;
     padding: 5px;
 }
 
@@ -36,8 +37,9 @@ img{
 
 /* article section */
 #tribute-info, #tribute-info p{
-    background-color: beige;
+    background-color: #7D7464;
     margin: 20px;
+    color: white;
 }
 
 /* link section */
@@ -46,12 +48,12 @@ section{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid #7D7464;
 }
 
 a{
     text-decoration: none;
-    color: blue;
+    color: #bdb1a0	;
     font-size: large; 
     margin: 0px 4px 0 0;
 }
